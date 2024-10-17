@@ -6,7 +6,7 @@ title: Civic Tech Toronto - Polis team # the website title (if blank, full name 
 first_name: You
 middle_name: R.
 last_name: Name
-email: you@example.com
+email: civictechpolis@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A team working on maintaining polis repository and knowledge sharing in electronic democracy experience.
 footer_text: >
@@ -41,7 +41,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -82,12 +82,12 @@ github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
-instagram_id: # your instagram id
+instagram_id: ctto.polis # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: # your LinkedIn user name
+linkedin_username: polis-civic-tech-04b219331 # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -108,8 +108,8 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: # your X handle
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+x_username: EDemocracy2024 # your X handle
+youtube_id: E.Democracy Practices # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
@@ -143,7 +143,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -200,12 +200,12 @@ collections:
     permalink: /:collection/:title/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -243,7 +243,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/

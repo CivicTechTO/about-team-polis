@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: members of the group
 nav: true
 nav_order: 7
 
@@ -11,7 +11,8 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: >
+      patcon (Patrick Connolly)
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
@@ -19,7 +20,8 @@ profiles:
       <p>Your City, State 12345</p>
   - align: left
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: >
+      Seb
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
