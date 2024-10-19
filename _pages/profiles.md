@@ -1,7 +1,7 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
+title: team
 description: members of the group
 nav: true
 nav_order: 7
@@ -13,18 +13,18 @@ profiles:
     image: prof_pic.jpg
     content: patcon.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    # more_info: >
+    #   <p>555 your office number</p>
+    #   <p>123 your address street</p>
+    #   <p>Your City, State 12345</p>
   - align: left
     image: prof_pic.jpg
     content: seb.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    # more_info: >
+    #   <p>555 your office number</p>
+    #   <p>123 your address street</p>
+    #   <p>Your City, State 12345</p>
 ---
 
 This page is used to **introduce anyone who contributes** to this project,  through their expertise, experience or network reach. We aspire to clearly recognize all contributions, and support any collaborators to understand us better.
