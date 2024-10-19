@@ -12,7 +12,7 @@ profiles:
   - align: right
     image: prof_pic.jpg
     content: >
-      patcon (Patrick Connolly)
+      Patrick Connolly
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
